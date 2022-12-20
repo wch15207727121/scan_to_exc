@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding:utf-8
-# Author:LinAn@123
+# Author:LinAn@wch
 # 目标tcp端口开放扫描及应用端口banner识别
 import nmap
 import sys
