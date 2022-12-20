@@ -70,7 +70,7 @@ if __name__ == '__main__':
     print ('扫描开始')
     data = []
     t10 = []
-    # nmap配置   G:\security_tools\company_security_tools\get_title-master\get_title-master\scan_target.txt   -sV
+    # nmap配置   scan_target.txt   -sV
     main_target = 'scan_target.txt'
     port_list = 'T:80,443,8080,8081,9999,4111,321,8282,8443,8442,8889,8802,5000,5530,8089,9022,9043,9046,9082,25,899'
     arguments = '-p {} -T5 -sS -iL {}'.format(port_list, main_target)
